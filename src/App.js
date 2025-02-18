@@ -1,22 +1,25 @@
 import React from 'react';
 import './App.css';
-import Backanimation from './components/Backanimation';
-import Header from './components/Header';
+import Home from './components/Home';
+import About from './components/About';
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
+import Bioit from './components/Bioit';
+import Newsletter from './components/Newsletter';
+import Career from './components/Career';
 
 function App() {
   
   return (
-    <div className="container" id='container'>
-    <Header/>
-      <div className="main-content">
-        <div className="network-bg"></div>
-        <Backanimation/>
-        <div className='biosetup-title'>
-        <span className="biosetup-title">Biosetup</span>
-        <span className="lifesciences-title">Lifesciences</span>
-        </div>
-        <p className="subtitle">A hub for scientific research and learning</p>
-      </div>
+    <div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/bioit" element={<Bioit/>}/>
+        <Route path="/newsletter" element={<Newsletter/>}/>
+        <Route path='/career' element={<Career/>}/>
+      </Routes>
+    </Router>
     </div>
   );
 }

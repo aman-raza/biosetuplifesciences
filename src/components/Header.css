@@ -2,7 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: left;
-    width: 1728px;
+    /* width: 1728px; */
+    width: auto;
     height: 138px;
     background-color: #0D92F4;
     padding: 0 30px;
@@ -66,7 +67,7 @@
   .in_header a {
     text-decoration: none;
     color: #0D92F4;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
   }
   
@@ -88,4 +89,5 @@
     color: #ffff;
     font-weight: 700;
     font-size: 20px;
+    position: absolute;
   }

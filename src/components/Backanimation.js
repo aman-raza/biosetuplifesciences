@@ -194,7 +194,6 @@ function Largecontainer() {
   return (
     <div>
       <canvas id="demo-canvas"></canvas>
-      {/* <h1 className="main-title">Connect <span className="thin">Three</span></h1> */}
     </div>
   );
 }
