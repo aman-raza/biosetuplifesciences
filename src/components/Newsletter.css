@@ -1,0 +1,98 @@
+.main-container {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    position: relative;
+}
+
+.heading {
+    margin-top: 10px;
+    flex: 1;
+    text-align: center;
+    position: relative;
+}
+.heading h1 {
+    font-size: 70px;
+    color:#0D92F4;
+    font-weight: 700;
+}
+.heading p {
+    color: #FF4191;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.2em;
+    margin-left: 5%;
+
+}
+
+.hamburger-box {
+    margin-left: 75%;
+    position: absolute;
+    margin-top: 10px;
+}
+.hamburger-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #FF4191;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 7px;
+}
+.hamburger-line {
+    width: 70%;
+    height: 2px;
+    background: #ffff;
+    transition: all 0.3s ease;
+  }
+.hamburger-button:hover .hamburger-line {
+    background: #555;
+}
+
+/* styles.css */
+.hamburger-button.active .hamburger-line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .hamburger-button.active .hamburger-line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger-button.active .hamburger-line:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  /* Dropdown menu styles */
+.hamburger-menu {
+    position: absolute;
+    top: 50px; /* Adjust below the button */
+    right: 0;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    list-style: none;
+    width: 150px;
+}
+
+.hamburger-menu li {
+    padding: 10px 20px;
+}
+
+.hamburger-menu li a {
+    text-decoration: none;
+    color: #0D92F4;
+    font-size: 16px;
+    display: block;
+}
+
+.hamburger-menu li:hover {
+    background: #f1f1f1;
+}
