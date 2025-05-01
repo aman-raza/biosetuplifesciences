@@ -13,8 +13,8 @@
   
   
   .bsl_logo img {
-    width: 128px;
-    height: 79px;
+    width: 60px;
+    height: 60px;
     top: 33px;
     left: 34px;
     border-radius: 100px;
@@ -49,8 +49,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 100px;
-    border-radius: 10px 50px 50px 10px;
+    margin-right: 100px;
+    border-radius: 50px 50px 50px 50px;
   }
   
   .in_header ul {

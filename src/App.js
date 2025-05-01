@@ -6,6 +6,10 @@ import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import Bioit from './components/Bioit';
 import Newsletter from './components/Newsletter';
 import Career from './components/Career';
+import Blogs from './components/Blogs'; 
+import SingleBlog from './components/SingleBlog';
+
+
 
 function App() {
   
@@ -18,6 +22,11 @@ function App() {
         <Route path="/bioit" element={<Bioit/>}/>
         <Route path="/newsletter" element={<Newsletter/>}/>
         <Route path='/career' element={<Career/>}/>
+        <Route path="/blogs" element={<Blogs />} />
+        <Route path="/blogs/:id" element={<SingleBlog />} />
+
+      
+      
       </Routes>
     </Router>
     </div>
