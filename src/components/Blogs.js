@@ -6,6 +6,8 @@ import edible from '../assets/edible.jpg'
 import biotech from '../assets/biotech.jpg';
 import drug from '../assets/drug.jpg';
 import biopharm from '../assets/biopharming.jpg';
+import synthetic from '../assets/synthetic.jpg';
+import genetic from '../assets/genetic.jpg';
 
 const blogData = [
   {
@@ -36,6 +38,18 @@ const blogData = [
     excerpt: 'Biopharming a subset of agricultural biotechnology...',
     image: biopharm,
   },
+ { id: 5,
+  category: 'Life Science',
+  title: 'Synthetic biology',
+  excerpt: 'Synthetic biology is an emerging field that combines biology...',
+  image:synthetic,
+} ,
+{ id: 6,
+    category: 'Life Science',
+    title: 'Genetic Engineering in Medicine',
+    excerpt: 'Genetic engineering in medicine is revolutionizing how we approach...',
+    image:genetic,
+  } ,
 ];
 
 function Blogs() {
