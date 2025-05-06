@@ -8,6 +8,8 @@ import Newsletter from './components/Newsletter';
 import Career from './components/Career';
 import Blogs from './components/Blogs'; 
 import SingleBlog from './components/SingleBlog';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 
@@ -16,6 +18,7 @@ function App() {
   return (
     <div>
     <Router>
+    <Header />
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
@@ -24,10 +27,8 @@ function App() {
         <Route path='/career' element={<Career/>}/>
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/blogs/:id" element={<SingleBlog />} />
-
-      
-      
       </Routes>
+      <Footer />
     </Router>
     </div>
   );

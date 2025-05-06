@@ -1,7 +1,6 @@
 import React from 'react';
 import './Home.css';
 import Backanimation from './Backanimation';
-import Header from './Header';
 import Bioit from './Bioit';
 import About from './About';
 import Career from './Career';
@@ -13,7 +12,7 @@ function Home() {
     <div>
     <Backanimation/>
     <div className="container" id='container'>
-    <Header/>
+   
       <div className="main-content">
         <div className="network-bg"></div>
         {/* <Backanimation/> */}
