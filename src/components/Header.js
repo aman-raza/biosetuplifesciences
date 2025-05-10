@@ -23,6 +23,7 @@ function Header() {
                   <li><a href="/opportunities">Opportunities</a></li>
                   <li><a href="/bioit">Bio-IT Pedia</a></li>
                   <li><a href="/blogs">Blogs</a></li>
+                  <li><a href="/webinars">Webinars</a></li>
                 </ul>
               </div>
               <div className="genz"><a href="#genz">Gen-Z School</a></div>

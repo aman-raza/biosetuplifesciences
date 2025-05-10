@@ -10,6 +10,8 @@ import Blogs from './components/Blogs';
 import SingleBlog from './components/SingleBlog';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Webinar from './components/Webinar';
+import Register from './components/Register';
 
 
 
@@ -27,6 +29,8 @@ function App() {
         <Route path='/career' element={<Career/>}/>
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/blogs/:id" element={<SingleBlog />} />
+        <Route path="/webinars" element={<Webinar/>}/>
+        <Route path="/register" element={<Register />} />
       </Routes>
       <Footer />
     </Router>

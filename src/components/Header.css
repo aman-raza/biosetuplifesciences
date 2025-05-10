@@ -42,7 +42,7 @@
   }
   
   .in_header {
-    width: auto; 
+    width: 900px; 
     height: 55px;
     padding: 10px 20px;
     background-color: #ffff;
@@ -74,7 +74,7 @@
   .genz {
     background-color: #FF4191;
     border-radius: 25px;
-    width: 156px;
+    width: 175px;
     height: 55px;
     top: 42px;
     /* left: 1536px; */
