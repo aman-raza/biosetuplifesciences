@@ -7,14 +7,14 @@
     height: 138px;
     background-color: #0D92F4;
     padding: 0 30px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    /* border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px; */
   }
   
   
   .bsl_logo img {
-    width: 128px;
-    height: 79px;
+    width: 50px;
+    height: 50px;
     top: 33px;
     left: 34px;
     border-radius: 100px;
@@ -31,8 +31,8 @@
     margin-left: 40px;
     line-height: 37.95px;
     padding-bottom: 80px;
-  
   }
+  
   .biosetup{
     font-weight: 600;
   }
@@ -42,15 +42,15 @@
   }
   
   .in_header {
-    width: auto; 
+    width: 900px; 
     height: 55px;
     padding: 10px 20px;
     background-color: #ffff;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 100px;
-    border-radius: 10px 50px 50px 10px;
+    margin-right: 100px;
+    border-radius: 50px 50px 50px 50px;
   }
   
   .in_header ul {
@@ -74,7 +74,7 @@
   .genz {
     background-color: #FF4191;
     border-radius: 25px;
-    width: 156px;
+    width: 175px;
     height: 55px;
     top: 42px;
     /* left: 1536px; */

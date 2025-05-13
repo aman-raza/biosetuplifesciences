@@ -1,0 +1,127 @@
+/* Page background and container */
+.register-bg {
+    background-color: #e0e0e0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Subtle 3D animated background shapes */
+  .register-bg::before,
+  .register-bg::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(60px);
+    opacity: 0.3;
+    animation: float 15s infinite alternate;
+  }
+  
+  .register-bg::before {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(45deg, #6a85b6, #bac8e0);
+    top: -100px;
+    left: -100px;
+  }
+  
+  .register-bg::after {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(45deg, #b6d0e2, #91a3b0);
+    bottom: -120px;
+    right: -100px;
+  }
+  
+  /* Form box styling */
+  .register-box {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 480px;
+    animation: dropIn 0.7s ease-out;
+    z-index: 2;
+  }
+  
+  .register-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Form elements */
+  .register-box form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register-box input,
+  .register-box select,
+  .register-box textarea {
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .register-box button {
+    padding: 12px;
+    background-color: #2d89ef;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .register-box button:hover {
+    background-color: #1c5ab9;
+  }
+  
+  /* Pop-up animation */
+  @keyframes popIn {
+    0% {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  /* Floating 3D background animation */
+  @keyframes float {
+    0% {
+      transform: translateY(0) rotate(0deg);
+    }
+    100% {
+      transform: translateY(-30px) rotate(20deg);
+    }
+  }
+  .register-box:hover,
+.register-box:active {
+  transform: scale(1.02);
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+@keyframes dropIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-80px) scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+  
+  
+  
