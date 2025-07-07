@@ -66,7 +66,7 @@ function Largecontainer() {
 
       // Assign circles to points
       for (let i in points) {
-       // let c = new Circle(points[i], 2 + Math.random() * 2, "rgba(255,255,255,0.3)"); //default
+        // let c = new Circle(points[i], 2 + Math.random() * 2, "rgba(255,255,255,0.3)"); //default
         var c = new Circle(points[i], 3 + Math.random() * 3, "rgba(100,149,237,0.3)"); //light blue
         points[i].circle = c;
       }
@@ -148,7 +148,7 @@ function Largecontainer() {
         y: p.originY - 40 + Math.random() * 80,
         ease: "sine.inOut",
         onComplete: () => shiftPoint(p),
-    });
+      });
     }
 
     function drawLines(p) {
