@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../assets/BIO.png';
 import './Header.css'
-
+import {Link} from 'react-router-dom'
 function Header() {
   return (
     <div>
@@ -18,7 +18,7 @@ function Header() {
                   <li><a href="/about">About Us</a></li>
                   <li><a href="/newsletter">Newslets</a></li>
                   <li><a href="/career">Career</a></li>
-                  <li><a href="/events">Events</a></li>
+                  <li><Link to ="/events">Events</Link></li>
                   <li><a href="/team">Our Team</a></li>
                   <li><a href="/opportunities">Opportunities</a></li>
                   <li><a href="/bioit">Bio-IT Pedia</a></li>

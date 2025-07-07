@@ -6,7 +6,7 @@ import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import Bioit from './components/Bioit';
 import Newsletter from './components/Newsletter';
 import Career from './components/Career';
-
+import Event from './components/Events';
 function App() {
   
   return (
@@ -18,6 +18,7 @@ function App() {
         <Route path="/bioit" element={<Bioit/>}/>
         <Route path="/newsletter" element={<Newsletter/>}/>
         <Route path='/career' element={<Career/>}/>
+        <Route path='/events' element={<Event/>}/>
       </Routes>
     </Router>
     </div>
