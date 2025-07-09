@@ -19,7 +19,7 @@ function Event() {
     <div className="vertical-line"></div>
 
     <div className="right-side">
-      <button className="right-button">Upcoming Webinar</button>
+      <button className="right-button">Upcoming Webinars</button>
       <button className="right-button">Upcoming Workshops</button>
       <button className="right-button">Upcoming Trainings</button>
     </div>
