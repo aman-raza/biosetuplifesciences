@@ -88,7 +88,6 @@ body {
   margin: 0 30px;
 }
 
-/* Right buttons */
 .right-button {
   padding: 14px 28px;
   font-size: 16px;
@@ -105,4 +104,5 @@ body {
 
 .right-button:hover {
   background-color: #d0e7ff;
+
 }
