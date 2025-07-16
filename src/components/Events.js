@@ -1,5 +1,5 @@
 import React from 'react';
-import  './events.css'; // You'll define the styles here
+import  './events.css'; 
 
 function Event() {
   return (
@@ -21,7 +21,7 @@ function Event() {
     <div className="right-side">
       <button className="right-button">Upcoming Webinars</button>
       <button className="right-button">Upcoming Workshops</button>
-      <button className="right-button">Upcoming Trainings</button>
+      <button className="right-button">Upcoming Training</button>
     </div>
   </div>
 </div>
