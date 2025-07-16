@@ -6,21 +6,23 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Bioit from './components/Bioit';
 import Newsletter from './components/Newsletter';
 import Career from './components/Career';
+import Event from './components/Events';
 import Team from './components/Team';
 function App() {
 
   return (
     <div>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/bioit" element={<Bioit />} />
-          <Route path="/newsletter" element={<Newsletter />} />
-          <Route path='/career' element={<Career />} />
-          <Route path='/team' element={<Team />} />
-        </Routes>
-      </Router>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/bioit" element={<Bioit/>}/>
+        <Route path="/newsletter" element={<Newsletter/>}/>
+        <Route path='/career' element={<Career/>}/>
+        <Route path='/events' element={<Event/>}/>
+        <Route path='/team' element={<Team />} />
+      </Routes>
+    </Router>
     </div>
   );
 }
