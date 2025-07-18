@@ -20,7 +20,6 @@ function App() {
         <Route path="/newsletter" element={<Newsletter/>}/>
         <Route path='/career' element={<Career/>}/>
         <Route path='/events' element={<Event/>}/>
-        <Route path='/team' element={<Team />} />
       </Routes>
     </Router>
     </div>
