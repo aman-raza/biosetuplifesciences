@@ -1,11 +1,13 @@
 import React from 'react';
 import  './events.css'; 
+import Header from './Header';
 
 function Event() {
   return (
     
     
     <div className="event-wrapper">
+      <Header/>
   <h1 className="event-heading"> EVENTS</h1>
 
   <div className="event-container">
