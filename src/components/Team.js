@@ -6,7 +6,7 @@ import { Volunteer_interns } from '../assets/Volunteers/volunteersapi'
 import { orgs } from '../assets/Organisers/organisersapi'
 function Team() {
 
-    const [toggle, setToggle] = useState(null);
+    const [toggle, setToggle] = useState(0);
     const [memberhover, setMemberhover] = useState(0);
     const [volunterhover, setVolunterhover] = useState(0);
     const [orghover, setOrghover] = useState(0);

@@ -23,12 +23,12 @@ function Newsletter() {
         <span className="hamburger-line"></span>
 
         {isActive && (
-                    <ul className="hamburger-menu">
-                        <li><a href="#">Most Popular</a></li>
-                        <li><a href="#">Recently Uploaded</a></li>
-                        <li><a href="#">Most Relevent</a></li>
-                    </ul>
-                )}
+        <ul className="hamburger-menu">
+            <li><a href='/'>Most Popular</a></li>
+            <li><a href='/'>Recently Uploaded</a></li>
+            <li><a href='/'>Most Relevent</a></li>
+        </ul>
+        )}
         </button>
       </div>
     </div>

@@ -11,9 +11,9 @@ function Career() {
           <h2>Lifescience</h2>
           <hr class="white-line-lifescience"></hr>
           <ul>
-            <li><a>Organization Jobs</a></li>
-            <li><a>Offline Labs</a></li>
-            <li><a>Handson Industrial Exposure</a></li>
+            <li><a href='/'>Organization Jobs</a></li>
+            <li><a href='/'>Offline Labs</a></li>
+            <li><a href='/'>Handson Industrial Exposure</a></li>
           </ul>
         </div>
         <div class="white-vertical-line"></div>
@@ -21,17 +21,16 @@ function Career() {
           <h2>IT</h2>
           <hr class="white-line-lifescience"></hr>
           <ul>
-            <li><a>Organization Jobs</a></li>
-            <li><a>Offline Labs</a></li>
-            <li><a>Handson Industrial Exposure</a></li>
-            <li><a>IOT</a></li>
-            <li><a>AI & ML</a></li>
-            <li><a>Neural Network</a></li>
+            <li><a href='/'>Organization Jobs</a></li>
+            <li><a href='/'>Offline Labs</a></li>
+            <li><a href='/'>Handson Industrial Exposure</a></li>
+            <li><a href='/'>IOT</a></li>
+            <li><a href='/'>AI & ML</a></li>
+            <li><a href='/'>Neural Network</a></li>
           </ul>
         </div>
       </div>
     </div>
   );
 }
-
 export default Career;
