@@ -2,9 +2,11 @@
     margin: 0%;
     padding: 0%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    min-height: 100vh;
+    max-width: 100vw;
     position: relative;
 }
 
@@ -28,71 +30,38 @@
 
 }
 
-.hamburger-box {
-    margin-left: 75%;
-    position: absolute;
-    margin-top: 10px;
+
+.newsletter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+    flex-wrap: wrap;
 }
-.hamburger-button {
+.newsletter-content {
+    width: 400px;
+    height: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
-    background-color: #FF4191;
-    border: none;
-    cursor: pointer;
-    padding: 8px;
-    border-radius: 7px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px 15px;
+    gap: 30px;
 }
-.hamburger-line {
-    width: 70%;
-    height: 2px;
-    background: #ffff;
-    transition: all 0.3s ease;
-  }
-.hamburger-button:hover .hamburger-line {
-    background: #555;
-}
-
-/* styles.css */
-.hamburger-button.active .hamburger-line:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-  
-  .hamburger-button.active .hamburger-line:nth-child(2) {
-    opacity: 0;
-  }
-  
-  .hamburger-button.active .hamburger-line:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
-
-  /* Dropdown menu styles */
-.hamburger-menu {
-    position: absolute;
-    top: 50px; /* Adjust below the button */
-    right: 0;
-    background: white;
-    border-radius: 5px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 10px 0;
-    list-style: none;
-    width: 150px;
-}
-
-.hamburger-menu li {
-    padding: 10px 20px;
-}
-
-.hamburger-menu li a {
-    text-decoration: none;
+.newsletter-content h2 {
+    font-size: 30px;
     color: #0D92F4;
-    font-size: 16px;
-    display: block;
+    font-weight: 700;
+    text-align: center;
 }
-
-.hamburger-menu li:hover {
-    background: #f1f1f1;
+.newsletter-content p {
+    color: #FF4191;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.2em;
+    text-align: center;
 }

@@ -32,7 +32,6 @@
   
     .about-box {
       perspective: 1000px;
-      /* Enables 3D effect */
     }
   
     .about-card-inner {
@@ -65,25 +64,21 @@
   
     .about-card-back {
       background-color: white;
-      /* Or any design you want */
       transform: rotateY(180deg);
     }
-  
-    /* Existing image-based styles */
+    
     .biosetup-card {
-      background-image: url('../assets/Biosetup_logo.png');
+      background-image: url('../assets/Biosetup_logo_cropped.png');
     }
   
     .genz-card {
       background-image: url('../assets/genz-school.png');
     }
   
-    /*.biosetup-back-card {
-      background-image: url('../assets/biosetup-back.png'); */
-      /* Example
+    /* .biosetup-back-card {
+      background-image: url('../assets/biosetup-back.png');
     }
   
     .genz-back-card {
-      /* background-image: url('../assets/genz-back.png'); */
-      /* Example
-    }*/
+      background-image: url('../assets/genz-back.png');
+    } */

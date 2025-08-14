@@ -9,7 +9,7 @@ function Bioit() {
 
           {/* Biospedia Card */}
           <div className="card biopedia-card">
-            <div className='bio'><a href='/'>BioPedia</a></div>
+            <div className='bio'><a href='/'>Bio Pedia</a></div>
             <div className='bio'><a href='/'>Scientisketch</a></div>
             <div className='bio'><a href='/'>Quiz</a></div>
             <div className='bio'><a href='/'>Job Updates</a></div>
@@ -17,7 +17,7 @@ function Bioit() {
 
           {/* Itpedia Card */}
           <div className="card itpedia-card">
-            <div className='it'><a href='/'>BioPedia</a></div>
+            <div className='it'><a href='/'>Bio-IT Pedia</a></div>
             <div className='it'><a href='/'>Scientisketch</a></div>
             <div className='it'><a href='/'>Quiz</a></div>
             <div className='it'><a href='/'>Job Updates</a></div>

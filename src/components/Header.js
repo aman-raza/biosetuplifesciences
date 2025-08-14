@@ -16,10 +16,11 @@ function Header() {
         <div className="in_header">
           <ul>
             <li><a href="#about-container">About Us</a></li>
-            <li><a href="#newsletter-container">Newslets</a></li>
-            <li><a href="#career-container">Career</a></li>
-            <li><a href="#events-container">Events</a></li>
+            <li><a href="#newsletter-container">Newsletters</a></li>
             <li><a href="#team-container">Our Team</a></li>
+            <li><a href="#events-container">Events</a></li>
+            <li><a href="/">Explore</a></li>
+            <li><a href="#career-container">Career</a></li>
             <li><a href="#opportunities-container">Opportunities</a></li>
             <li><a href="#bioit-container">Bio-IT Pedia</a></li>
           </ul>
