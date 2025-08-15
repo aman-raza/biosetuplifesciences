@@ -157,8 +157,8 @@ export const Volunteer_interns = [
         post: "LinkedIn Intern",
         linkedinlink: "https://www.linkedin.com/in/sangeetha-sangameswaran-70800b312/",
         linkedinName: "Sangeetha Sangameswaran",
-        instagramlink: "https://www.instagram.com/",
-        instagramhandle: "@",
+        instagramlink: "https://www.instagram.com/ssangeetha_s25/",
+        instagramhandle: "@ssangeetha_s25",
         emaillink: "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=sangeethasangam2506@gmail.com",
         email: "sangeethasangam2506@gmail.com",
         img: [li5]
