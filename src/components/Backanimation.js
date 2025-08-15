@@ -66,7 +66,6 @@ function Largecontainer() {
 
       // Assign circles to points
       for (let i in points) {
-        // let c = new Circle(points[i], 2 + Math.random() * 2, "rgba(255,255,255,0.3)"); //default
         var c = new Circle(points[i], 3 + Math.random() * 3, "rgba(100,149,237,0.3)"); //light blue
         points[i].circle = c;
       }
@@ -135,13 +134,6 @@ function Largecontainer() {
     }
 
     function shiftPoint(p) {
-      // gsap.to(p, {
-      //   duration: 1 + Math.random(),
-      //   x: p.originX - 50 + Math.random() * 100,
-      //   y: p.originY - 50 + Math.random() * 100,
-      //   ease: "circ.inOut",
-      //   onComplete: () => shiftPoint(p),
-      // });
       gsap.to(p, {
         duration: 2 + Math.random(), // Slower
         x: p.originX - 40 + Math.random() * 80,
@@ -157,7 +149,6 @@ function Largecontainer() {
         ctx.beginPath();
         ctx.moveTo(p.x, p.y);
         ctx.lineTo(p.closest[i].x, p.closest[i].y);
-        // ctx.strokeStyle = `rgba(156,217,249,${p.active})`;
         ctx.strokeStyle = `rgba(100,149,237,${p.active})`;  // Light Blue
         ctx.lineWidth = 1.2; // Slightly thicker for better contrast
         ctx.stroke();
@@ -197,5 +188,4 @@ function Largecontainer() {
     </div>
   );
 }
-
 export default Largecontainer;
