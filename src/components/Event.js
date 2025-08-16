@@ -6,7 +6,7 @@ function Event() {
         <div className="event-container">
             <div className="event-header">
                 <h1 className="event-title">EVENTS</h1>
-                <div className="divisions"></div>
+                <div className="event-header-line division"></div>
             </div>
             <div className="event-content">
                 <div className="event-left">
@@ -18,16 +18,16 @@ function Event() {
                         Tune in for ongoing live events
                     </p>
                 </div>
-                <div className="event-middle divisions"></div>
+                <div className="event-middle division"></div>
                 <div className="event-right">
-                    <div className="event-upcoming-webinar">
-                        <h3 className="event-upcoming-webinar-title">Upcoming Webinar</h3>
+                    <div className="event-upcoming">
+                        <h3 className="event-upcoming-title">Upcoming Webinar</h3>
                     </div>
-                    <div className="event-upcoming-workshop">
-                        <h3 className="event-upcoming-workshop-title">Upcoming Workshop</h3>
+                    <div className="event-upcoming">
+                        <h3 className="event-upcoming-title">Upcoming Workshop</h3>
                     </div>
-                    <div className="event-upcoming-training">
-                        <h3 className="event-upcoming-training-title">Upcoming Training</h3>
+                    <div className="event-upcoming">
+                        <h3 className="event-upcoming-title">Upcoming Training</h3>
                     </div>
                 </div>
             </div>

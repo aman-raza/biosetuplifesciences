@@ -52,11 +52,6 @@ h1 {
   height: 100%;
 }
 
-#container {
-	/* background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg'); */
-  /* background-image: url('./assets/network.png'); */
-}
-
 .biosetup-title {
   display: flex;
   flex-direction: row;

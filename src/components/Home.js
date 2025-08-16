@@ -7,6 +7,7 @@ import About from './About';
 import Career from './Career';
 import Newsletter from './Newsletter';
 import Team from './Team';
+import Event from './Event';
 
 function Home() {
 
@@ -29,6 +30,9 @@ function Home() {
       </div>
       <div className="about-container" id='about-container'>
         <About />
+      </div>
+      <div className="event-container" id='event-container'>
+        <Event />
       </div>
       <div className="newsletter-container" id='newsletter-container'>
         <Newsletter />
