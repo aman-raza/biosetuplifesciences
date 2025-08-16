@@ -7,12 +7,13 @@ import { orgs } from '../assets/Organisers/organisersapi'
 import instagramLogo from '../../src/instagram_logo.svg'
 import linkedinLogo from '../../src/linkedin_logo.svg'
 import emailLogo from '../../src/email_logo.svg'
+
 function Team() {
 
     const [toggle, setToggle] = useState(0);
-    const [memberhover, setMemberhover] = useState(0);
-    const [volunterhover, setVolunterhover] = useState(0);
-    const [orghover, setOrghover] = useState(0);
+    const [memberhover, setMemberhover] = useState(null);
+    const [volunterhover, setVolunterhover] = useState(null);
+    const [orghover, setOrghover] = useState(null);
 
     function Organisers() {
         return (
