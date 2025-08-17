@@ -20,8 +20,8 @@ export const orgs = [
         designation: "Chief Supervisor",
         linkedinlink: "https://www.linkedin.com/in/agnishroy/",
         linkedinName: "Agnish Roy",
-        instagramlink: "https://www.instagram.com/",
-        instagramhandle: "@",
+        instagramlink: "https://www.instagram.com/agnishhroy/",
+        instagramhandle: "@agnishhroy",
         emaillink: "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=connectagnishroy@gmail.com",
         email: "connectagnishroy@gmail.com",
         img: [org2]
