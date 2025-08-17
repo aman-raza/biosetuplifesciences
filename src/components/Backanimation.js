@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
-import './Backanimation.css';
+import "./Backanimation.css";
 
 function Largecontainer() {
   useEffect(() => {
@@ -66,7 +66,11 @@ function Largecontainer() {
 
       // Assign circles to points
       for (let i in points) {
-        var c = new Circle(points[i], 3 + Math.random() * 3, "rgba(100,149,237,0.3)"); //light blue
+        var c = new Circle(
+          points[i],
+          3 + Math.random() * 3,
+          "rgba(100,149,237,0.3)"
+        ); //light blue
         points[i].circle = c;
       }
     }
@@ -84,8 +88,16 @@ function Largecontainer() {
     }
 
     function mouseMove(e) {
-      let posx = e.pageX || e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;
-      let posy = e.pageY || e.clientY + document.body.scrollTop + document.documentElement.scrollTop;
+      let posx =
+        e.pageX ||
+        e.clientX +
+          document.body.scrollLeft +
+          document.documentElement.scrollLeft;
+      let posy =
+        e.pageY ||
+        e.clientY +
+          document.body.scrollTop +
+          document.documentElement.scrollTop;
       target.x = posx;
       target.y = posy;
     }
@@ -149,7 +161,7 @@ function Largecontainer() {
         ctx.beginPath();
         ctx.moveTo(p.x, p.y);
         ctx.lineTo(p.closest[i].x, p.closest[i].y);
-        ctx.strokeStyle = `rgba(100,149,237,${p.active})`;  // Light Blue
+        ctx.strokeStyle = `rgba(100,149,237,${p.active})`; // Light Blue
         ctx.lineWidth = 1.2; // Slightly thicker for better contrast
         ctx.stroke();
       }

@@ -1,91 +1,89 @@
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    width: 1728px;
-    height: 138px;
-    background-color: #0D92F4;
-    padding: 0 20px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-  }
-  
-  
-  .bsl_logo img {
-    width: 128px;
-    height: 79px;
-    top: 33px;
-    left: 34px;
-    border-radius: 100px;
-  }
-  
-  .bsl-title {
-    display: flex;
-    flex-direction: row;
-    color: #ffff;
-    font-size: 27px;
-    width: 377px;
-    height: 39px;
-    margin-top: 45px;
-    margin-left: 40px;
-    line-height: 37.95px;
-    padding-bottom: 80px;
-  
-  }
-  .biosetup{
-    font-weight: 600;
-  }
-  
-  .lifesciences{
-    font-weight: 400;
-  }
-  
-  .in_header {
-    width: auto; 
-    height: 55px;
-    padding: 10px 20px;
-    background-color: #ffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 50px;
-    border-radius: 50px;
-  }
-  
-  .in_header ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .in_header li {
-    margin-right: 20px;
-  }
-  
-  .in_header a {
-    text-decoration: none;
-    color: #0D92F4;
-    font-size: 14px;
-    font-weight: 500;
-  }
-  
-  .genz {
-    background-color: #FF4191;
-    border-radius: 25px;
-    width: 156px;
-    height: 55px;
-    top: 42px;
-    border-radius: 25px;
-    padding-top: 15px;
-    padding-left: 10px;
-    margin-left: 20px;
-  }
-  
-  .genz a {
-    text-decoration: none;
-    color: #ffff;
-    font-weight: 700;
-    font-size: 20px;
-    position: absolute;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 1728px;
+  height: 138px;
+  background-color: #0d92f4;
+  padding: 0 20px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.bsl_logo img {
+  width: 128px;
+  height: 79px;
+  top: 33px;
+  left: 34px;
+  border-radius: 100px;
+}
+
+.bsl-title {
+  display: flex;
+  flex-direction: row;
+  color: #ffff;
+  font-size: 27px;
+  width: 377px;
+  height: 39px;
+  margin-top: 45px;
+  margin-left: 40px;
+  line-height: 37.95px;
+  padding-bottom: 80px;
+}
+.biosetup {
+  font-weight: 600;
+}
+
+.lifesciences {
+  font-weight: 400;
+}
+
+.in_header {
+  width: auto;
+  height: 55px;
+  padding: 10px 20px;
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  border-radius: 50px;
+}
+
+.in_header ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.in_header li {
+  margin-right: 20px;
+}
+
+.in_header a {
+  text-decoration: none;
+  color: #0d92f4;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.genz {
+  background-color: #ff4191;
+  border-radius: 25px;
+  width: 156px;
+  height: 55px;
+  top: 42px;
+  border-radius: 25px;
+  padding-top: 15px;
+  padding-left: 10px;
+  margin-left: 20px;
+}
+
+.genz a {
+  text-decoration: none;
+  color: #ffff;
+  font-weight: 700;
+  font-size: 20px;
+  position: absolute;
+}
