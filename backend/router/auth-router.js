@@ -1,5 +1,5 @@
 const express = require("express");
-const router = express.router();
+const router = express.Router();
 const {
   home,
   bio_pedia,
@@ -17,3 +17,5 @@ router.route("/events").get(events);
 router.route("/explore").get(explore);
 router.route("/newsletters").get(newsletters);
 router.route("/opportunities").get(opportunities);
+
+module.exports = router;
