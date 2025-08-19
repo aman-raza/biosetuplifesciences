@@ -1,9 +1,9 @@
 const home = async (req, res) => {
-  res.send("Home Page");
+  res.redirect("http://localhost:3000/#");
 };
 
 const bio_pedia = async (req, res) => {
-  res.send("Bio-Pedia Page");
+  res.redirect("http://localhost:3000/#bioit-container");
 };
 
 const bio_it_pedia = async (req, res) => {
