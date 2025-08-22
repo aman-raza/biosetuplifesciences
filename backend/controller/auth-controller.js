@@ -1,5 +1,5 @@
 const home = async (req, res) => {
-  res.redirect("http://localhost:3000/#");
+  res.redirect("http://localhost:3000/");
 };
 
 const bio_pedia = async (req, res) => {
@@ -7,23 +7,23 @@ const bio_pedia = async (req, res) => {
 };
 
 const bio_it_pedia = async (req, res) => {
-  res.send("Bio-IT-Pedia Page");
+  res.redirect("http://localhost:3000/#bioit-container");
 };
 
 const events = async (req, res) => {
-  res.send("Events Page");
+  res.redirect("http://localhost:3000/#events-container");
 };
 
 const explore = async (req, res) => {
-  res.send("Explore Page");
+  res.redirect("http://localhost:3000/#explore-container");
 };
 
 const newsletters = async (req, res) => {
-  res.send("Newsletters Page");
+  res.redirect("http://localhost:3000/#newsletters-container");
 };
 
 const opportunities = async (req, res) => {
-  res.send("Opportunities Page");
+  res.redirect("http://localhost:3000/#opportunities-container");
 };
 
 module.exports = {
