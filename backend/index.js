@@ -3,7 +3,7 @@ import router from "./router/auth-router.js";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
 
-dotenv.config();
+dotenv.config({ path: "./config.env" });
 
 const app = express();
 
