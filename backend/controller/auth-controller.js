@@ -26,7 +26,7 @@ const opportunities = async (req, res) => {
   res.redirect("http://localhost:3000/#opportunities-container");
 };
 
-module.exports = {
+export default {
   home,
   bio_pedia,
   bio_it_pedia,
